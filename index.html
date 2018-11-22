@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+
+  <body>
+    <header><h1>Rock Paper Scissors Lizard Spock</h1></header>
+    <div class="scoreboard">
+      <div id="user-label" class="badge">USER</div>
+      <div id="computer-label" class="badge">COMP</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result"><p>Paper covers Rock. You win!</p></div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img style="width: 100px;" src="images/rock.png" alt="" />
+      </div>
+      <div class="choice" id="p">
+        <img style="width: 100px;" src="images/paper.png" alt="" />
+      </div>
+      <div class="choice" id="s">
+        <img style="width: 100px;" src="images/sci.png" alt="" />
+      </div>
+      <div class="choice" id="l">
+        <img style="width: 100px;" src="images/lizard.png" alt="" />
+      </div>
+      <div class="choice" id="sp">
+        <img style="width: 100px;" src="images/spock.png" alt="" />
+      </div>
+    </div>
+
+    <p id="action">Make Your Move!</p>
+    <div class="rules">
+      <h2>The rules</h2>
+      <p>
+        Scissors cuts paper.<br />
+        Paper covers rock.<br />
+        Rock crushes lizard.<br />
+        Lizard poisons Spock.<br />
+        Spock smashes scissors.<br />
+        Scissors decapitates lizard.<br />
+        Lizard eats paper.<br />
+        Paper disproves Spock.<br />
+        Spock vaporizes rock.<br />
+        Rock crushes scissors.
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
